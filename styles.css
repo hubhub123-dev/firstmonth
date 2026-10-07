@@ -21,4 +21,7 @@ dialog{color:var(--ink);border:1px solid var(--line);background:var(--surface);b
 .cover-copy h1 + .primary{margin-top:32px}
 .scene-photo.full-photo{width:max-content;max-width:330px;aspect-ratio:auto}.scene-photo.full-photo img{width:auto;height:auto;max-width:100%;max-height:420px;object-fit:contain;animation:none}
 @media(max-width:700px){.scene-photo.full-photo{max-width:210px}.scene-photo.full-photo img{max-height:235px}}
+.scene.centered.letter .scene-copy{width:100%;max-width:760px;text-align:left}.scene.centered.letter .scene-copy h2{font-size:clamp(34px,4vw,56px);font-style:normal;line-height:1.2}.scene.centered.letter .scene-copy p{max-width:none;font-size:clamp(18px,1.8vw,24px);line-height:1.85}
+.scene-video-frame{width:max-content;max-width:380px;aspect-ratio:auto}.scene-video-frame video{display:block;width:auto;height:auto;max-width:100%;max-height:420px;object-fit:contain;background:#251d22}
+@media(max-width:700px){.scene-video-frame{max-width:260px}.scene-video-frame video{max-height:245px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.petals{display:none}}
